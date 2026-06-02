@@ -1,0 +1,45 @@
+:root{
+    /* Layout & Sizing */
+    --layout-full-width: 100%;
+    --layout-screen-height: 100vh;
+
+    --hero-card-offset-y: 50%;
+    --hero-card-offset-x: 5em;
+
+    /* Moonlit Tree Palette */
+    --color-bg-dark: rgba(6, 14, 36, 1);
+
+    --night: 6, 14, 36;
+    --plum: 146, 123, 169;
+    --moon: 235, 226, 214;
+    --mist: 187, 178, 186;
+    --muted-amber: 206, 161, 96;
+    --amber: 239, 159, 39;
+
+    /* Surfaces */
+    --surface-card: rgba(var(--night), 0.62);
+    --surface-card-hover: rgba(var(--night), 0.70);
+
+    /* Borders */
+    --border-soft: rgba(var(--moon), 0.12);
+    --border-strong: rgba(var(--moon), 0.22);
+
+    /* Typography */
+    --color-text-primary: rgba(var(--moon), 0.96);
+    --color-text-secondary: rgba(var(--mist), 0.75);
+    --color-text-muted: rgba(var(--mist), 0.46);
+
+    /* Accent */
+    --color-accent-amber: rgba(var(--amber), 0.88);
+
+    /* Effects */
+    --highlight-soft: rgba(var(--moon), 0.08);
+    --glow-plum-soft: rgba(var(--plum), 0.10);
+    --glow-plum-strong: rgba(var(--plum), 0.18);
+    --glow-amber-soft: rgba(var(--amber), 0.08);
+    --rim-top: rgba(var(--moon), 0.36);
+
+    /* Shadows */
+    --shadow-soft: rgba(0, 0, 0, 0.30);
+    --shadow-deep: rgba(0, 0, 0, 0.55);
+}
