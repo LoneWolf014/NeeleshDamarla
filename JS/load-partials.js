@@ -16,5 +16,5 @@ async function loadPartial(targetId, filePath) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    await loadPartial("hero-slot", "../Partials/hero.html");
+    await loadPartial("hero-slot", "./Partials/hero.html");
 });
