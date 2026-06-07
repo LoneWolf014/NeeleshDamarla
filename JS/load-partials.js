@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     );
 
     await loadPartial("hero-slot", `${basePath}Partials/hero.html`);
+    await loadPartial("navbar-slot", `${basePath}Partials/navbar.html`);
 });
